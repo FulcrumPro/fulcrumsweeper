@@ -1,4 +1,10 @@
 export const Config = {
+  Fulcrum: {
+    rows: 18,
+    columns: 50,
+    ceils: 800,
+    mines: 300
+  },
   Beginner: {
     rows: 9,
     columns: 9,

@@ -14,6 +14,7 @@ import open6 from '../assets/open6.png';
 import open7 from '../assets/open7.png';
 import open8 from '../assets/open8.png';
 import flag from '../assets/flag.png';
+import fulcrum from '../assets/fulcrum.png';
 import mine from '../assets/mine-ceil.png';
 import mineDeath from '../assets/mine-death.png';
 import misFlagged from '../assets/misflagged.png';
@@ -219,6 +220,20 @@ function MineSweeperView({
               <div className="mine__drop-down__arrow" />
             </div>
             <div className="mine__drop-down__separator" />
+            <div
+              className="mine__drop-down__row"
+              onMouseUp={() => onReset('Fulcrum')}
+              onTouchStart={() => onReset('Fulcrum')}
+            >
+              <div className="mine__drop-down__check">
+                {difficulty === 'Fulcrum' && (
+                  <img src={checked} alt="checked" />
+                )}
+              </div>
+              <span>Fulcrum</span>
+              <span className="mine__drop-down__hot-key" />
+              <div className="mine__drop-down__arrow" />
+            </div>
             <div
               className="mine__drop-down__row"
               onMouseUp={() => onReset('Beginner')}
@@ -448,7 +463,7 @@ const MisFlagged = () => (
 const Flag = () => (
   <>
     <CeilBackgroundCover />
-    <img alt="flag" src={flag} />
+    <img alt="flag" src={fulcrum} />
   </>
 );
 const MinesAround = ({ mines }) => (

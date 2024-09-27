@@ -42,6 +42,7 @@ function App() {
               justifyContent: 'center',
               alignItems: 'center',
               height: '100%',
+              margin: '0 10px',
             }
           : {
               display: 'flex',
@@ -65,7 +66,7 @@ function App() {
         }
       >
         <Minesweeper
-          defaultDifficulty="Beginner"
+          defaultDifficulty="Fulcrum"
           sameTouchPos={samePos}
           lastTouch={lastTouch}
           platform={platform}
