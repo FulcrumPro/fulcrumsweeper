@@ -70,6 +70,7 @@ function App() {
           sameTouchPos={samePos}
           lastTouch={lastTouch}
           platform={platform}
+          onClose={() => {}}
         />
       </div>
     </div>
