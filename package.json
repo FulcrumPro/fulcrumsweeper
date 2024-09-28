@@ -1,6 +1,6 @@
 {
-  "name": "minesweeper",
-  "homepage": "https://mines.now.sh",
+  "name": "fulcrumsweeper",
+  "homepage": "https://FulcrumPro.github.io/fulcrumsweeper",
   "version": "0.1.0",
   "author": "sh1zuku <shizukuichi@gmail.com>",
   "dependencies": {
@@ -17,7 +17,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "now-build": "react-scripts build"
+    "now-build": "react-scripts build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -27,5 +28,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }
