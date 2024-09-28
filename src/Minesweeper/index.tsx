@@ -1,4 +1,4 @@
-import React, { useReducer, useEffect, useState, ReducerAction } from "react";
+import React, { useReducer, useEffect, useState } from "react";
 import sampleSize from "lodash.samplesize";
 
 import { Config } from "./config";

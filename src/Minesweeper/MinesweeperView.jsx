@@ -13,7 +13,6 @@ import open5 from '../assets/open5.png';
 import open6 from '../assets/open6.png';
 import open7 from '../assets/open7.png';
 import open8 from '../assets/open8.png';
-import flag from '../assets/flag.png';
 import fulcrum from '../assets/fulcrum.png';
 import mine from '../assets/mine-ceil.png';
 import mineDeath from '../assets/mine-death.png';
@@ -134,6 +133,7 @@ function MineSweeperView({
       default:
         openingCeil(-1);
     }
+  // eslint-disable-next-line
   }, [openBehavior.index, openBehavior.behavior]);
   function onMouseDownCeils(e, index) {
     if (e.button === 2 && e.buttons === 2 && index !== -1) {
