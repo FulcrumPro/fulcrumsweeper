@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/fulcrumsweeper/static/css/main.74fd7f74.css",
-    "main.js": "/fulcrumsweeper/static/js/main.e2fe969a.js",
-    "index.html": "/fulcrumsweeper/index.html",
-    "main.74fd7f74.css.map": "/fulcrumsweeper/static/css/main.74fd7f74.css.map",
-    "main.e2fe969a.js.map": "/fulcrumsweeper/static/js/main.e2fe969a.js.map"
+    "main.css": "/static/css/main.74fd7f74.css",
+    "main.js": "/static/js/main.b70ad86b.js",
+    "index.html": "/index.html",
+    "main.74fd7f74.css.map": "/static/css/main.74fd7f74.css.map",
+    "main.b70ad86b.js.map": "/static/js/main.b70ad86b.js.map"
   },
   "entrypoints": [
     "static/css/main.74fd7f74.css",
-    "static/js/main.e2fe969a.js"
+    "static/js/main.b70ad86b.js"
   ]
 }
