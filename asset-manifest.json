@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fulcrumsweeper/static/css/main.74fd7f74.css",
+    "main.js": "/fulcrumsweeper/static/js/main.c2059340.js",
+    "index.html": "/fulcrumsweeper/index.html",
+    "main.74fd7f74.css.map": "/fulcrumsweeper/static/css/main.74fd7f74.css.map",
+    "main.c2059340.js.map": "/fulcrumsweeper/static/js/main.c2059340.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74fd7f74.css",
+    "static/js/main.c2059340.js"
+  ]
+}
