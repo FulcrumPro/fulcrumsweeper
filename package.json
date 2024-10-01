@@ -19,7 +19,7 @@
     "eject": "react-scripts eject",
     "now-build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build --cname fulcrumsweeper.com"
   },
   "eslintConfig": {
     "extends": "react-app"
